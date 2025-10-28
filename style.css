@@ -13,7 +13,6 @@ div {
     box-sizing: border-box;
 }
 
-
 p {
     color: blueviolet;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -36,16 +35,18 @@ div.footnote {
 }
 
 div.box {
+    margin-top: 25px;
     margin-left: 100px;
-    margin-top: 200px;
-    background-color: blueviolet;
+    background-color: #8b3a3a;
     color: black;
-    width: 300px;
+    width: 600px;
     height: 300px;
     border: 1px;
-
 }
 
+div.marginrightbox {
+    margin-right: 100px;
+}
 div.chapter{
     font-size: 70px;
     border-top: 4px solid black;
@@ -61,6 +62,9 @@ div.right{
 
 .container{
     display: flex;
+}
+
+div.height850{
     height: 850px;
 }
 
@@ -240,6 +244,511 @@ div.forumcontent {
 div.imgsize1{
     size: 40px;
 }
-  
 
+div.colorgreen{
+    color: #2d8659;
+}
+
+div.colorblack {
+    color: black;
+}
+
+div.italic {
+    font-style: italic;
+}
+
+div.subheader2 {
+    font-family: 'Special Elite', monospace;
+    font-size: 30px;
+}
+
+div.paddingtop25 {
+    padding-top: 25px;
+}
+
+div.smallsubheader{
+    font-family: 'Special Elite', monospace;
+    font-weight:bold;
+    font-size: 35px;
+    color:#2d8659;;
+
+}
+
+div.midfontsize {
+    font-size: 20px;
+}
+
+div.box2 {
+    margin-top: 25px;
+    margin-left: 100px;
+    background-color: #2d8659;;
+    color: black;
+    width: 600px;
+    height: 300px;
+    border: 1px;
+}
+
+div.whitetext {
+    color: antiquewhite;
+}
+
+div.redtext {
+    color: #8b3a3a;
+}
+
+div.marginbottom100 {
+    margin-bottom: 100px;
+}
+
+body{
+    background-color: oklch(100% 0.00011 271.152);
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+p {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.subheader {
+    font-size: 50px;
+    font-family: 'Special Elite', monospace;
+}
+
+div.quote {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+div.footnote {
+    font-style: italic;
+    text-transform: capitalize
+}
+
+div.box {
+    margin-top: 25px;
+    margin-left: 100px;
+    background-color: #8b3a3a;
+    color: black;
+    width: 600px;
+    height: 300px;
+    border: 1px;
+}
+
+div.marginrightbox {
+    margin-right: 100px;
+}
+
+div.chapter{
+    font-size: 70px;
+    border-top: 4px solid black;
+    padding-top: 10px;
+    margin-top: ;
+}
+
+div.right{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+}
+
+.container{
+    display: flex;
+}
+
+div.height850{
+    height: 850px;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width25{
+    width: 25%;
+}
+
+div.width80 {
+    width: 80%;
+}
+
+div.width75 {
+    width: 75%;
+}
+
+div.width100 {
+    width: 100%;
+}
+
+div.height50 {
+    height: 50%;
+}
+
+div.height90 {
+    height: 90%;
+}
+
+div.bgred {
+    background-color: #8b3a3a;
+}
+
+div.bggreen {
+    background-color: #2d8659;
+}
+
+div.subtext {
+    font-family: 'Special Elite', monospace;
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+div.subtext2 {
+    font-family: 'Special Elite', monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+div.textalignright {
+    text-align: right;
+}
+
+div.textalignleft {
+    text-align: left;
+}
+
+div.textmiddle {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
   
+div.marginauto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.marginright {
+    margin-right: 40px;
+}
+
+div.margintop100 {
+    margin-top: 150px;
+}
+
+div.paddingtop100 {
+    padding-top: 150px;
+}
+
+div.paddingtop50 {
+    padding-top: 100px;
+}
+  
+div.marginleft {
+    margin-left: 20px;
+}
+
+div.box1green {
+    background-color: #2d8659;
+    width: 85%;
+    height: 300px;
+}
+
+div.marginbottom {
+    margin-bottom: 150px;
+}
+
+div.paddingbottom20 {
+    padding-bottom: 20px;
+}
+
+div.containereyes {
+    width: 100%;
+    padding: 80px 60px;
+}
+
+div.eyes {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 28px;
+}
+
+div.whiteeyes{
+    width: 90px;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+div.forumpost {
+    background: linear-gradient(135deg, #2d1b1b 0%, #1a0f0f 100%);
+    border-left: 4px solid #8B0000;
+    padding: 30px;
+    margin: 30px 0;
+    position: relative;
+    box-shadow: 0 0 20px rgba(139, 0, 0, 0.3);
+}
+
+div.forumpostbefore {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+div.forumheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #4a2828;
+    padding-bottom: 10px;
+}
+
+div.forumuser {
+    font-family: 'VT323', monospace;
+    color: #666;
+    font-size: 1.2em;
+}
+
+div.forumuserspan {
+    color: #8B0000;
+    font-weight: bold;
+}
+
+div.forumdate {
+    font-size: 0.9em;
+    color: #555;
+}
+
+div.forumcontent {
+    font-size: 1.3em;
+    line-height: 1.8;
+    color: #b8b8b8;
+    font-family: 'Special Elite', monospace;
+    letter-spacing: 1px;
+}
+
+div.imgsize1{
+    size: 40px;
+}
+
+div.colorgreen{
+    color: #2d8659;
+}
+
+div.colorblack {
+    color: black;
+}
+
+div.italic {
+    font-style: italic;
+}
+
+div.subheader2 {
+    font-family: 'Special Elite', monospace;
+    font-size: 30px;
+}
+
+div.paddingtop25 {
+    padding-top: 25px;
+}
+
+div.smallsubheader{
+    font-family: 'Special Elite', monospace;
+    font-weight:bold;
+    font-size: 35px;
+    color:#2d8659;
+}
+
+div.midfontsize {
+    font-size: 20px;
+}
+
+div.box2 {
+    margin-top: 25px;
+    margin-left: 100px;
+    background-color: #2d8659;
+    color: black;
+    width: 600px;
+    height: 300px;
+    border: 1px;
+}
+
+div.whitetext {
+    color: antiquewhite;
+}
+
+div.redtext {
+    color: #8b3a3a;
+}
+
+div.marginbottom100 {
+    margin-bottom: 100px;
+}
+
+div.boxrules {
+    background-color: #1a1a1a;
+    border: 4px solid #2d8659;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+}
+
+div.rulesheader {
+    font-family: 'Special Elite', monospace;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: antiquewhite;
+    text-align: center;
+}
+
+div.twocol {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+div.rulebox {
+    background-color: #0f0f0f;
+    border: 2px solid #8b3a3a;
+    box-shadow: 0 0 20px rgba(139,0,0,0.4);
+    width: 45%;
+    min-width: 260px;
+    margin: 10px;
+    padding: 20px;
+}
+
+div.ruleheader {
+    font-family: 'Special Elite', monospace;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8b3a3a;
+    margin-bottom: 10px;
+}
+
+
+ul.timeline {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 20px;
+    border-left: 4px solid #2d8659;
+}
+
+ul.timeline li {
+    padding: 20px;
+    padding-left: 16px;
+    margin-left: 10px;
+    position: relative;
+    background-color: rgba(0,0,0,0.4);
+    margin-bottom: 20px;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    border: 1px solid #2d8659;
+}
+
+div.time {
+    font-family: 'VT323', monospace;
+    color: #8b3a3a;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+div.entry {
+    font-family: 'Special Elite', monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    color: antiquewhite;
+    letter-spacing: 2px;
+}
+
+div.faqrow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+div.faqbox {
+    background-color: #1a1a1a;
+    border: 2px solid #8b3a3a;
+    width: 30%;
+    min-width: 260px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+div.faqtitle {
+    font-family: 'Special Elite', monospace;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8b3a3a;
+    margin-bottom: 10px;
+}
+
+div.faqtext {
+    font-family: 'Special Elite', monospace;
+    font-size: 15px;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+div.footerblock {
+    text-align: center;
+    font-family: 'Special Elite', monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: antiquewhite;
+    background-color: #8b3a3a;
+    box-shadow: 0 0 30px rgba(139,0,0,0.4);
+}
+
+div.colorblack {
+    color: black;
+}
+
+div.marginbottom50{
+    margin-bottom: 50px;
+}
+
+div.paddingtop20 {
+    padding-top: 20px;
+}
+
+div.textcenter 
